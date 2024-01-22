@@ -1,38 +1,181 @@
-.App {
+* {
+  background-color: #c8beb2;
+  font-family: Red Hat Display;
+}
+.headertitle {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  margin-top: 2rem;
+  height: 100%;
+}
+.htext {
+  letter-spacing: 3px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.divitem {
+  height: 100%;
+  margin-top: 7rem;
+}
+.casapet {
+  width: 100%;
+}
+.cptext {
+  font-size: 72px;
+  letter-spacing: 8px;
+  font-family: Marcellus SC;
+  font-weight: 100;
+  color: #6a593b;
+}
+
+.divhome {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  margin-top: 4rem;
+}
+.btnonline {
+  width: 350px;
+  background-color: #7b5b4e;
+  color: #c8beb2;
+  border: none;
+  height: 6vh;
+  border-radius: 5px;
+  font-family: Red Rose;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+.titletext {
+  color: #8c613b;
+  font-size: 42px;
+  width: 900px;
   text-align: center;
+  letter-spacing: 2.5px;
+  font-weight: 300;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.alldivitens {
+  height: 100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.divitens {
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+  justify-content: center;
+  margin: 10rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.buybtn {
+  width: 320px;
+  height: 6vh;
+  background-color: #a69580;
+  color: #7b5b4e;
+  border: none;
+  border-radius: 5px;
+  font-family: Red Rose;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+.shampoo {
+  width: 200px;
+}
+.itemtext {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.buttonselect {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 10rem;
+}
+.divbuttons {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  margin-bottom: 3rem;
+}
+.btnp {
+  width: 320px;
+  height: 6vh;
+  border: none;
+  background-color: #7b5b4e;
+  color: #c8beb2;
+  border-radius: 5px;
+  font-family: Red Rose;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+.textp {
+  display: flex;
+  justify-content: center;
+  font-size: 42px;
 }
 
-.App-link {
-  color: #61dafb;
+.divpromo {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.divbtnpromo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  margin-bottom: 10rem;
+}
+.btnpromo {
+  width: 320px;
+  height: 6vh;
+  border: none;
+  background-color: #7b5b4e;
+  color: #c8beb2;
+  border-radius: 5px;
+  font-family: Red Rose;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+.email {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 2.5px;
+}
+.divinfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  margin-bottom: 5rem;
+}
+.infos {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.insta {
+  font-size: 50px;
+  color: #7b5b4e;
+}
+.wpp {
+  color: #c8beb2;
+  background-color: transparent;
+  font-size: 25px;
+}
+.btnwpp {
+  width: 280px;
+  height: 6vh;
+  border: none;
+  background-color: #7b5b4e;
+  color: #c8beb2;
+  border-radius: 5px;
+  font-family: Red Rose;
+  font-size: 18px;
+  letter-spacing: 5px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 0.7rem;
 }
