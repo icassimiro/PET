@@ -6,7 +6,7 @@ export default function Initial() {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      Navigate("/Home");
+      Navigate("");
     }, 3300);
     return () => clearTimeout(timer);
   }, []);
