@@ -29,9 +29,7 @@ export default function Itemd() {
       <div className="divitens">
         <img className="tee" src={teeth1}></img>
         <div className="itemtext">
-          <h2 className="titleitem">
-            ARRANHADOR PARA GATOS E PROTETOR DE SOFÁ
-          </h2>
+          <h2 className="titleitem">ESCOVA DE DENTE DEDO PARA PETS</h2>
           <h4 className="price">R$ XX,XX</h4>
 
           <button className="buybtn">COMPRAR PRODUTO</button>
