@@ -14,7 +14,7 @@ export default function Itemd() {
         <img className="dog1" src={dog1}></img>
         <div className="itemtext">
           <h2 className="titleitem">
-            ASSENTO DE CARRO COM ARMAZENAMENTO PARA PETS.
+            ASSENTO DE CARRO COM ARMAZENAMENTO PARA PETS
           </h2>
 
           <h4 className="price">R$ XX,XX</h4>
